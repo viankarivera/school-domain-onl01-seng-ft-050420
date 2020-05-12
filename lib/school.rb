@@ -1,6 +1,6 @@
 # code here!
 class School
-  def initialize(school)
+  def initialize(name)
     @school = school
   end
   def school=(school)
@@ -8,6 +8,6 @@ class School
   end
   def school
     @school
-  end 
+  end
 
 end
