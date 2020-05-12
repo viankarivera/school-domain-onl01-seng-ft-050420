@@ -19,3 +19,4 @@ class School
  def grade(number)
    @roster[number]
  end
+ end 
