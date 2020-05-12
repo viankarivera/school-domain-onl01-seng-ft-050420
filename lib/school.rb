@@ -15,4 +15,5 @@ class School
     end
   end
 end
-@school.add_student("Jeff Baird",10)
+school.add_student("Zach Morris", 9)
+school.roster
