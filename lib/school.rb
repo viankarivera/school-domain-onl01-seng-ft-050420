@@ -15,4 +15,4 @@ class School
     end
   end
 end
-@school.roster("Jeff Baird,10")
+@school.add_student("Jeff Baird,10")
