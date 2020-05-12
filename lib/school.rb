@@ -8,12 +8,15 @@ class School
     @roster
   end
   def add_student(name, grade)
-    if @roster[grade] = nil
-      @roster[grade] << name
-    else
-      @roster[grade] = [name]
-    end
-  end
-end
-school.add_student("Zach Morris", 9)
-school.roster
+   @student_name = name
+   @grade = grade
+   if @roster.include?(grade) == false
+     @roster[grade] = []
+   end
+   @roster[grade] << name
+ end
+
+ def grade(number)
+   @roster[number]
+ end
+ end 
