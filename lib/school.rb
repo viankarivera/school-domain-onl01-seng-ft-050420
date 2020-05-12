@@ -13,5 +13,6 @@ class School
     else
       @roster[grade] = [name]
     end
-  end 
+  end
 end
+school.roster("Jeff Baird,10")
